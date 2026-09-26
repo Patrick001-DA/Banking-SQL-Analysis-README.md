@@ -44,6 +44,11 @@ SELECT *
 FROM customers
 WHERE branch_id IN (1, 4, 7);
 
+-- display unique loan statuses 
+
+SELECT DISTINCT loan_status
+FROM loans;
+
 
 --  Display all accounts with a balance greater than 100,000
 

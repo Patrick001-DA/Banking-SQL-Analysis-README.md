@@ -1,4 +1,15 @@
--- Question 1: Display the customer name,branch -- name,city, account type, and account balance ---- for every customer.
+
+-- display customers without loans
+
+SELECT
+    c.customer_name
+FROM customers c
+LEFT JOIN loans l
+    ON c.customer_id = l.customer_id
+WHERE l.loan_id IS NULL;
+
+
+-- Display the customer name,branch -- name,city, account type, and account balance ---- for every customer.
 
 
 

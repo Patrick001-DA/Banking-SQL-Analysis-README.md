@@ -115,3 +115,7 @@ The goal of this project is to demonstrate practical SQL skills through a realis
 ## Author
 
 Patrick Njuguna Muchemi
+
+BSc Mathematics & Economics
+
+SQL | Data Analysis | SPSS | Excel | Power BI
